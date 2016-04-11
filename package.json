@@ -1,0 +1,21 @@
+{
+  "name": "sum-variants",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sumVariants.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ditrade.ru:BelirafoN/sum-variants.git"
+  },
+  "author": "BelirafoN <belirafon@gmail.com>",
+  "license": "MIT"
+}
