@@ -1,6 +1,6 @@
 {
   "name": "sum-variants",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All combinations of numbers whose sum is equal to the specified number",
   "engines": {
     "node": ">=4.0"
