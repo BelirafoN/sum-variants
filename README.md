@@ -16,6 +16,14 @@ $ npm i sum-variants
 
 ## Usage
 
+```javascript
+const sumVariants = require('sum-variants');
+const srcArr = [.9, 6, '4', 9.1];
+
+console.log(sumVariants(srcArr, 10));
+// [[0.9, 9.1], [4, 6]]
+```
+
 ## Tests 
 
 Tests require [Mocha](https://mochajs.org/). 
