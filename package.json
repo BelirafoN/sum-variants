@@ -1,21 +1,31 @@
 {
   "name": "sum-variants",
   "version": "0.0.1",
-  "description": "",
-  "main": "sumVariants.js",
-  "directories": {
-    "test": "tests"
+  "description": "All combinations of numbers whose sum is equal to the specified number",
+  "engines": {
+    "node": ">=4.0"
   },
+  "main": "./lib/AmiTestServer.js",
+  "dependencies": {},
   "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "mocha ./tests"
+    "test": "mocha ./test",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.ditrade.ru:BelirafoN/sum-variants.git"
+    "url": "git@github.com:BelirafoN/sum-variants.git"
   },
-  "author": "BelirafoN <belirafon@gmail.com>",
+  "author": {
+    "name": "Alex Voronyansky",
+    "email": "belirafon@gmail.com"
+  },
+  "bugs": {
+    "email": "belirafon@gmail.com"
+  },
   "license": "MIT"
 }

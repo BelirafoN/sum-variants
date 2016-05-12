@@ -6,7 +6,7 @@
 
 "use strict";
 
-const getSumVariants = require('../src/sumVariants');
+const getSumVariants = require('../lib/sumVariants');
 const assert = require('assert');
 
 describe('getSumVariants functionality', () => {
@@ -14,7 +14,7 @@ describe('getSumVariants functionality', () => {
         sourceArr = [];
 
     beforeEach(() => {
-        sourceArr = [1,2,3,4,5,6,7,8,9,0];
+        sourceArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
     });
 
     it('Returned value is Array', () => {
